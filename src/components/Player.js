@@ -12,7 +12,7 @@ export const Player = () => {
             cover: 'https://source.unsplash.com/random',
         }]
     }
-    onPlay = () => {
+    onplay = () => {
         console.log('on play');
     }
     
@@ -20,7 +20,6 @@ export const Player = () => {
         <div>
             <ReactAplayer 
                 {...props}
-                
             />
         </div>
     )
